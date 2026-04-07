@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zeka_vez — Štampa po narudžbini i brendirani proizvodi</title>
+    <meta name="description" content="zeka_vez nudi premium štampu po narudžbini na majicama, šoljama, duksevima, radnoj odeći, promotivnim proizvodima, poklonima i brendiranim poslovnim materijalima.">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <img src="assets/logo.png" alt="zeka_vez Logo" class="logo-img">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services">Usluge</a></li>
+                <li><a href="#why-us">Zašto mi</a></li>
+                <li><a href="#gallery">Galerija</a></li>
+                <li><a href="#how-it-works">Kako funkcioniše</a></li>
+                <li><a href="#estimator">AI Procena</a></li>
+                <li><a href="#testimonials">Utisci</a></li>
+                <li><a href="#contact" class="nav-cta">Zatražite ponudu</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-pattern"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    Premijum štampa po narudžbini
+                </div>
+                <h1 class="hero-title">
+                    Vaš brend,<br>
+                    <span class="text-accent">savršeno odštampan.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Od majica i šolja po meri do korporativne radne odeće i promotivnih proizvoda — <strong>zeka_vez</strong> pruža visokokvalitetnu štampu i personalizaciju za pojedince i firme.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        Zatražite ponudu
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="#services" class="btn btn-outline btn-lg">
+                        Pogledajte usluge
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">5,000+</span>
+                        <span class="stat-label">Završenih narudžbina</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Poslovnih klijenata</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Zadovoljnih kupaca</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-logo-showcase">
+                    <img src="assets/logo.png" alt="zeka_vez Mascot" class="hero-mascot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Čime se bavimo</span>
+                <h2 class="section-title">Naše <span class="text-accent">usluge</span></h2>
+                <p class="section-subtitle">Kvalitetna štampa i personalizacija širokog spektra proizvoda — za ličnu upotrebu i poslovno brendiranje.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 6h20v10H14z" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                            <path d="M10 16h28v18H10z" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                            <path d="M14 34v8h20v-8" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                            <path d="M18 26h12M18 30h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Štampa na majicama</h3>
+                    <p>Dizajn po meri na premium materijalima — sito štampa, DTG i vinil za pojedince i timove.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="24" cy="38" rx="12" ry="4" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M12 18v20M36 18v20" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M12 18c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M18 24h12M20 28h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Štampa na šoljama</h3>
+                    <p>Sublimaciona štampa na keramičkim i magic šoljama — savršeno za poklone, kancelarije i promocije.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 6h16l4 10H12l4-10z" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                            <path d="M12 16h24v24H12z" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                            <path d="M8 16h4M36 16h4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                            <path d="M20 26h8M22 30h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Duksevi i dukserice</h3>
+                    <p>Brendirana gornja odeća sa vezom ili štampom u punom koloru — idealno za ekipe i merch kolekcije.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 8h16v32H16z" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                            <path d="M16 8l-8 6v20l8 6" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                            <path d="M32 8l8 6v20l-8 6" stroke="currentColor" stroke-width="2.5" fill="none"/>
+                            <circle cx="24" cy="18" r="3" stroke="currentColor" stroke-width="2"/>
+                            <path d="M20 28h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Brendiranje radne odeće</h3>
+                    <p>Profesionalne uniforme i radna odeća sa logom vaše firme — izdržljivo, čisto i dosledno.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="8" y="12" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M16 20h16M16 26h10M16 32h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M24 6v6M18 8l2 4M30 8l-2 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Promotivni proizvodi</h3>
+                    <p>Olovke, torbe, trakice, USB memorije i još mnogo toga — brendirana roba koja čuva vašu vidljivost.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="14" width="28" height="24" rx="2" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M10 14l14-8 14 8" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M24 22v8M20 26h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Personalizovani pokloni</h3>
+                    <p>Jedinstvene kreacije za rođendane, venčanja, praznike i posebne prilike — originalno i nezaboravno.</p>
+                </div>
+                <div class="service-card service-card-wide" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="6" y="10" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                            <path d="M6 18h36" stroke="currentColor" stroke-width="2.5"/>
+                            <circle cx="12" cy="14" r="1.5" fill="currentColor"/>
+                            <circle cx="17" cy="14" r="1.5" fill="currentColor"/>
+                            <circle cx="22" cy="14" r="1.5" fill="currentColor"/>
+                            <path d="M14 26h20M14 30h14M14 34h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Poslovni brending materijali</h3>
+                    <p>Vizit karte, flajeri, baneri, nalepnice, pakovanja i kompletni brending paketi — sve što vašoj firmi treba da se profesionalno istakne.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE US ========== -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Zašto zeka_vez</span>
+                <h2 class="section-title">Građeno na <span class="text-accent">kvalitetu i poverenju</span></h2>
+                <p class="section-subtitle">Mi ne samo da štampamo — isporučujemo kompletno brending iskustvo sa brzinom, preciznošću i profesionalizmom.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-number">01</div>
+                    <div class="why-content">
+                        <h3>Vrhunski kvalitet štampe</h3>
+                        <p>Profesionalna oprema i premium boje garantuju živopisne, dugotrajne rezultate na svakom proizvodu.</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">02</div>
+                    <div class="why-content">
+                        <h3>Brza izrada</h3>
+                        <p>Kratki rokovi? Nema problema. Optimizujemo proizvodnju da bismo vašu narudžbinu isporučili brzo, bez kompromisa.</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">03</div>
+                    <div class="why-content">
+                        <h3>Narudžbine po meri</h3>
+                        <p>Svaka narudžbina je prilagođena vašoj viziji — od pojedinačnih poklona do velikih serija sa preciznim specifikacijama.</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">04</div>
+                    <div class="why-content">
+                        <h3>Izdržljivi materijali</h3>
+                        <p>Koristimo premium materijale i podloge kako bi vaši otisci izdržali svakodnevno nošenje, pranje i upotrebu.</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">05</div>
+                    <div class="why-content">
+                        <h3>Profesionalna usluga</h3>
+                        <p>Jasna komunikacija, transparentne cene i stručno vođenje od prvog kontakta do finalne isporuke.</p>
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">06</div>
+                    <div class="why-content">
+                        <h3>Fleksibilna rešenja</h3>
+                        <p>Bilo da ste pojedinac, startup ili korporacija — prilagođavamo se vašim potrebama i rastemo zajedno sa vama.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== GALLERY SECTION ========== -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Naši radovi</span>
+                <h2 class="section-title">Izložba <span class="text-accent">proizvoda</span></h2>
+                <p class="section-subtitle">Uverite se u kvalitet — pravi primeri štampanih proizvoda iz naše radionice.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-lg">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                        </div>
+                        <span class="gallery-label">Majice po meri</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                        </div>
+                        <span class="gallery-label">Brendirane šolje</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                        </div>
+                        <span class="gallery-label">Duksevi</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                        </div>
+                        <span class="gallery-label">Radna odeća</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                        </div>
+                        <span class="gallery-label">Promo proizvodi</span>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-item-lg">
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+                        </div>
+                        <span class="gallery-label">Poslovni brending</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== HOW IT WORKS ========== -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Jednostavan proces</span>
+                <h2 class="section-title">Kako <span class="text-accent">funkcioniše</span></h2>
+                <p class="section-subtitle">Od ideje do gotovog proizvoda u četiri laka koraka.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-line"></div>
+                    <div class="step-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+                    </div>
+                    <h3>Pošaljite ideju</h3>
+                    <p>Podelite svoj dizajn, koncept ili zahteve putem kontakt forme ili direktno mejlom.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-line"></div>
+                    <div class="step-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
+                    </div>
+                    <h3>Dobijte ponudu</h3>
+                    <p>Pregledamo vaš zahtev i šaljemo jasnu ponudu sa cenom, rokom i specifikacijama.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-line"></div>
+                    <div class="step-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>Počinje proizvodnja</h3>
+                    <p>Nakon odobrenja, počinjemo štampu sa preciznošću i kontrolom kvaliteta u svakom koraku.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <div class="step-line"></div>
+                    <div class="step-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                    </div>
+                    <h3>Dostava ili preuzimanje</h3>
+                    <p>Vaši gotovi proizvodi su pažljivo upakovani i isporučeni ili spremni za preuzimanje.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Utisci klijenata</span>
+                <h2 class="section-title">Poverenje <span class="text-accent">firmi i pojedinaca</span></h2>
+                <p class="section-subtitle">Evo šta naši klijenti kažu o saradnji sa zeka_vez.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote>
+                        "Izvanredan kvalitet na našim firmiranim uniformama. Otisak je savršeno izdržao desetine pranja. Veoma profesionalna usluga od početka do kraja."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MK</div>
+                        <div>
+                            <strong>Marko K.</strong>
+                            <span>Vlasnik firme</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote>
+                        "Naručili smo šolje i majice po meri za timski događaj — sve je stiglo na vreme i izgledalo fenomenalno. Definitivno ćemo ponovo naručiti."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AS</div>
+                        <div>
+                            <strong>Ana S.</strong>
+                            <span>Marketing menadžer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote>
+                        "Trebali su mi personalizovani pokloni za venčanje — zeka_vez je prevazišao sva očekivanja. Predivan rad, fer cene i odlična komunikacija."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DJ</div>
+                        <div>
+                            <strong>Dragan J.</strong>
+                            <span>Privatni klijent</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trust-badges">
+                <div class="trust-badge">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    <span>Garantovan kvalitet</span>
+                </div>
+                <div class="trust-badge">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    <span>Isporuka na vreme</span>
+                </div>
+                <div class="trust-badge">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+                    <span>500+ zadovoljnih klijenata</span>
+                </div>
+                <div class="trust-badge">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                    <span>Brza podrška</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== AI EMBROIDERY ESTIMATOR ========== -->
+    <section class="estimator" id="estimator">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">AI Procena</span>
+                <h2 class="section-title">Procenite cenu <span class="text-accent">veza</span></h2>
+                <p class="section-subtitle">Otpremite svoj dizajn, unesite željene dimenzije i odmah dobijte okvirnu procenu broja uboda i cene veza.</p>
+            </div>
+
+            <div class="est-layout">
+                <!-- Left: Input Form -->
+                <div class="est-form-panel">
+                    <!-- Image Upload -->
+                    <div class="est-upload-zone" id="estDropZone">
+                        <input type="file" id="estFileInput" accept="image/*" hidden>
+                        <div class="est-upload-empty" id="estUploadEmpty">
+                            <div class="est-upload-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                            </div>
+                            <p><strong>Otpremite dizajn</strong></p>
+                            <p class="est-upload-hint">Prevucite sliku ovde ili kliknite za izbor</p>
+                            <span class="est-upload-formats">PNG, JPG, SVG, WEBP — max 10MB</span>
+                        </div>
+                        <div class="est-upload-preview" id="estUploadPreview" hidden>
+                            <img id="estPreviewImg" alt="Pregled dizajna">
+                            <button class="est-remove-img" id="estRemoveImg" aria-label="Ukloni sliku">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Dimensions -->
+                    <div class="est-dimensions">
+                        <h4 class="est-field-label">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 3H3v18h18V3zM9 3v18M3 9h18"/></svg>
+                            Dimenzije veza
+                        </h4>
+                        <div class="est-dim-row">
+                            <div class="est-dim-field">
+                                <label for="estWidth">Širina</label>
+                                <input type="number" id="estWidth" min="0.1" step="0.1" placeholder="8">
+                            </div>
+                            <span class="est-dim-x">×</span>
+                            <div class="est-dim-field">
+                                <label for="estHeight">Visina</label>
+                                <input type="number" id="estHeight" min="0.1" step="0.1" placeholder="8">
+                            </div>
+                            <div class="est-dim-field est-unit-field">
+                                <label for="estUnit">Jedinica</label>
+                                <select id="estUnit">
+                                    <option value="cm" selected>cm</option>
+                                    <option value="in">inči</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Type -->
+                    <div class="est-product">
+                        <h4 class="est-field-label">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.38 3.46L16 2 12 3.46 8 2 3.62 3.46a2 2 0 00-1.34 1.89v13.4a2 2 0 002.74 1.86L8 19l4 1.46L16 19l3.38 1.46a2 2 0 002.74-1.86V5.35a2 2 0 00-1.74-1.89z"/></svg>
+                            Proizvod <span class="est-optional">(opciono)</span>
+                        </h4>
+                        <div class="est-product-grid">
+                            <label class="est-product-opt">
+                                <input type="radio" name="estProduct" value="tshirt">
+                                <span>
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 6h20v10H14z M10 16h28v18H10z"/></svg>
+                                    Majica
+                                </span>
+                            </label>
+                            <label class="est-product-opt">
+                                <input type="radio" name="estProduct" value="polo">
+                                <span>Polo</span>
+                            </label>
+                            <label class="est-product-opt">
+                                <input type="radio" name="estProduct" value="hoodie">
+                                <span>Duks</span>
+                            </label>
+                            <label class="est-product-opt">
+                                <input type="radio" name="estProduct" value="cap">
+                                <span>Kapa</span>
+                            </label>
+                            <label class="est-product-opt">
+                                <input type="radio" name="estProduct" value="jacket">
+                                <span>Jakna</span>
+                            </label>
+                            <label class="est-product-opt">
+                                <input type="radio" name="estProduct" value="workwear">
+                                <span>Radna odeća</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Submit -->
+                    <button class="btn btn-primary btn-lg btn-full est-submit" id="estSubmit">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                        Proceni cenu veza
+                    </button>
+                </div>
+
+                <!-- Right: Results -->
+                <div class="est-result-panel" id="estResultPanel">
+                    <!-- Empty state -->
+                    <div class="est-result-empty" id="estResultEmpty">
+                        <div class="est-result-empty-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                        </div>
+                        <p>Otpremite dizajn i unesite dimenzije da biste dobili procenu</p>
+                    </div>
+
+                    <!-- Loading state -->
+                    <div class="est-result-loading" id="estResultLoading" hidden>
+                        <div class="est-spinner"></div>
+                        <p>Analiziram dizajn...</p>
+                        <span>Procena složenosti, gustine i broja uboda</span>
+                    </div>
+
+                    <!-- Result state -->
+                    <div class="est-result-content" id="estResultContent" hidden>
+                        <!-- Preview thumbnail -->
+                        <div class="est-result-thumb-row">
+                            <img id="estResultThumb" class="est-result-thumb" alt="">
+                            <div class="est-result-meta">
+                                <span class="est-complexity-badge" id="estComplexityBadge">—</span>
+                                <span class="est-result-dims" id="estResultDims">—</span>
+                            </div>
+                        </div>
+
+                        <!-- Stitch count -->
+                        <div class="est-result-card est-result-stitches">
+                            <div class="est-result-card-label">Procenjen broj uboda</div>
+                            <div class="est-result-card-value" id="estStitchCount">—</div>
+                            <div class="est-result-card-range" id="estStitchRange">—</div>
+                        </div>
+
+                        <!-- Price -->
+                        <div class="est-result-card est-result-price">
+                            <div class="est-result-card-label">Okvirna cena</div>
+                            <div class="est-result-card-value est-price-value" id="estPriceValue">—</div>
+                            <div class="est-result-card-range" id="estPriceRange">—</div>
+                        </div>
+
+                        <!-- Analysis summary -->
+                        <div class="est-analysis" id="estAnalysis">
+                            <h4>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                                Analiza dizajna
+                            </h4>
+                            <ul id="estAnalysisList"></ul>
+                        </div>
+
+                        <!-- Disclaimer -->
+                        <div class="est-disclaimer">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <div>
+                                <strong>Ovo je okvirna procena.</strong> Konačan broj uboda se utvrđuje nakon digitalizacije dizajna. Finalna cena zavisi od stvarnih dimenzija, gustine veza, materijala, količine i posebnih zahteva.
+                            </div>
+                        </div>
+
+                        <!-- Paid evaluation notice -->
+                        <div class="est-paid-notice">
+                            <div class="est-paid-notice-icon">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            </div>
+                            <div class="est-paid-notice-content">
+                                <strong>Napomena:</strong> Prikazana cijena je okvirna AI procjena. Tačna procjena cijene naplaćuje se jednokratno i iznosi od <span class="est-fee-badge">5 — 100 EUR</span>, u zavisnosti od veličine i složenosti veza/printa. Za preciznu ponudu potrebno je uraditi probni uzorak kako bi se tačno procijenili ubodi, zahtjevnost izrade i konačna cijena.
+                            </div>
+                        </div>
+
+                        <!-- CTA -->
+                        <a href="#contact" class="btn btn-primary btn-lg btn-full est-result-cta">
+                            Zatražite tačnu ponudu
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hidden canvas for image analysis -->
+        <canvas id="estCanvas" hidden></canvas>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Spremni da oživite svoje ideje?</h2>
+                <p>Bilo da je u pitanju pojedinačni proizvod po meri ili velika poslovna narudžbina — tu smo da vam pomognemo da napravite nešto sjajno.</p>
+                <a href="#contact" class="btn btn-primary btn-lg">
+                    Započnite odmah
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Kontaktirajte nas</span>
+                <h2 class="section-title">Hajde da <span class="text-accent">razgovaramo</span></h2>
+                <p class="section-subtitle">Imate projekat na umu? Potrebna vam je ponuda za veću narudžbinu? Pošaljite nam poruku i javićemo vam se u najkraćem roku.</p>
+            </div>
+            <div class="contact-grid">
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Ime i prezime</label>
+                            <input type="text" id="name" name="name" placeholder="Vaše ime i prezime" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email adresa</label>
+                            <input type="email" id="email" name="email" placeholder="vas@email.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Tema</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Izaberite temu</option>
+                            <option value="quote">Zahtev za ponudu</option>
+                            <option value="bulk">Upit za veću narudžbinu</option>
+                            <option value="branding">Poslovno brendiranje</option>
+                            <option value="custom">Proizvod po meri</option>
+                            <option value="other">Drugo</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Poruka</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Opišite vaš projekat, količine, rokove..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-full">
+                        Pošaljite poruku
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                    </button>
+                    <div class="form-success" id="formSuccess">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                        Poruka je poslata! Javićemo vam se uskoro.
+                    </div>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                        </div>
+                        <div>
+                            <strong>E-pošta</strong>
+                            <a href="mailto:info@zekavez.com">info@zekavez.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                        </div>
+                        <div>
+                            <strong>Telefon</strong>
+                            <a href="tel:+381600000000">+381 60 000 0000</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div>
+                            <strong>Lokacija</strong>
+                            <span>Srbija</span>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <strong>Pratite nas</strong>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="TikTok">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="assets/logo.png" alt="zeka_vez Logo" class="footer-logo">
+                    <p>Premijum štampa po narudžbini i personalizacija proizvoda za pojedince i firme. Kvalitet koji se vidi, usluga kojoj se veruje.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Brzi linkovi</h4>
+                    <ul>
+                        <li><a href="#services">Usluge</a></li>
+                        <li><a href="#why-us">Zašto mi</a></li>
+                        <li><a href="#gallery">Galerija</a></li>
+                        <li><a href="#how-it-works">Kako funkcioniše</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Usluge</h4>
+                    <ul>
+                        <li><a href="#services">Štampa na majicama</a></li>
+                        <li><a href="#services">Štampa na šoljama</a></li>
+                        <li><a href="#services">Štampa na duksevima</a></li>
+                        <li><a href="#services">Brendiranje radne odeće</a></li>
+                        <li><a href="#services">Poslovni materijali</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontakt</h4>
+                    <ul>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                            info@zekavez.com
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                            +381 60 000 0000
+                        </li>
+                        <li>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            Srbija
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 zeka_vez. Sva prava zadržana.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                    </a>
+                    <a href="#" aria-label="TikTok">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== PRICE CALCULATOR CHATBOT ========== -->
+    <div class="calc-fab" id="calcFab" aria-label="Kalkulator cena veza">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8M8 10h8M8 14h3M13 14h3M8 18h3M13 18h3"/></svg>
+    </div>
+
+    <div class="calc-panel" id="calcPanel">
+        <div class="calc-header">
+            <div class="calc-header-left">
+                <img src="assets/logo.png" alt="zeka_vez" class="calc-logo">
+                <div>
+                    <strong>zeka_vez</strong>
+                    <span>Kalkulator cene veza</span>
+                </div>
+            </div>
+            <button class="calc-close" id="calcClose" aria-label="Zatvori">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+        </div>
+
+        <div class="calc-body" id="calcBody">
+            <!-- Welcome message -->
+            <div class="calc-msg calc-msg-bot">
+                <div class="calc-avatar">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8"/></svg>
+                </div>
+                <div class="calc-bubble">
+                    Zdravo! 👋 Dobrodošli u <strong>zeka_vez</strong> kalkulator cene veza.<br><br>
+                    Unesite broj uboda vašeg dizajna i odmah ćete dobiti okvirnu cenu.
+                </div>
+            </div>
+        </div>
+
+        <div class="calc-input-area">
+            <div class="calc-input-row">
+                <div class="calc-input-wrap">
+                    <input type="text" id="calcStitches" class="calc-input" placeholder="Broj uboda (npr. 5000)" inputmode="numeric" autocomplete="off">
+                </div>
+                <button class="calc-btn" id="calcBtn">
+                    Izračunaj
+                </button>
+            </div>
+            <div class="calc-formula-hint">
+                Formula: (ubodi ÷ 1000 × 0,15) × 1,30
+            </div>
+            <div class="calc-disclaimer">
+                AI kalkulator daje samo okvirnu procjenu. Tačna procjena se naplaćuje jednokratno (5–100 EUR), jer je za konačnu cijenu potrebno uraditi probni uzorak.
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
